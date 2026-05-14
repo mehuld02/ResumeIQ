@@ -2,11 +2,11 @@
 
 **ResumeIQ** is a full-stack AI-powered career assistant that helps job seekers:
 
-- 📄 Upload their resume and parse its content
-- 🔍 Analyze job descriptions to extract required skills
-- 📊 Detect skill gaps between their profile and target roles
-- 🤖 Generate AI-powered, role-specific interview questions
-- 📝 Produce ATS-optimized resumes as downloadable PDFs
+- Upload their resume and parse its content
+- Analyze job descriptions to extract required skills
+- Detect skill gaps between their profile and target roles
+- Generate AI-powered, role-specific interview questions
+- Produce ATS-optimized resumes as downloadable PDFs
 
 ---
 
@@ -14,12 +14,12 @@
 
 | Feature               | Description                                                    |
 | --------------------- | -------------------------------------------------------------- |
-| 🔐 **Authentication** | Secure register/login/logout with JWT & token blacklisting     |
-| 📤 **Resume Upload**  | Upload resumes via Multer for AI processing                    |
-| 🧠 **AI Analysis**    | AI-driven skill gap detection and job description parsing      |
-| 💬 **Interview Prep** | Auto-generated interview questions tailored to role and resume |
-| 📄 **PDF Generation** | ATS-optimized resume export powered by Puppeteer               |
-| 📋 **Report History** | View, retrieve, and manage all past interview reports          |
+| **Authentication** | Secure register/login/logout with JWT & token blacklisting     |
+| **Resume Upload**  | Upload resumes via Multer for AI processing                    |
+| **AI Analysis**    | AI-driven skill gap detection and job description parsing      |
+| **Interview Prep** | Auto-generated interview questions tailored to role and resume |
+| **PDF Generation** | ATS-optimized resume export powered by Puppeteer               |
+| **Report History** | View, retrieve, and manage all past interview reports          |
 
 ---
 
