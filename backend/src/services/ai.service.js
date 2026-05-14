@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GOOGLE_GENAI_API_KEY,
 });
 
-// Replace zodToJsonSchema with Gemini's native Type schema
+
 const geminiSchema = {
   type: Type.OBJECT,
   properties: {
@@ -43,7 +43,7 @@ const geminiSchema = {
         type: Type.OBJECT,
         properties: {
           skill: { type: Type.STRING },
-          severity: { type: Type.STRING }, // low/medium/high
+          severity: { type: Type.STRING }, 
         },
         required: ["skill", "severity"],
       },
@@ -102,7 +102,7 @@ ${jobDescription}
     contents: prompt,
     config: {
       responseMimeType: "application/json",
-      responseSchema: geminiSchema, // ✅ Native Gemini schema instead of zodToJsonSchema
+      responseSchema: geminiSchema, 
     },
   });
 
